@@ -8,10 +8,10 @@ class FooterPage extends React.Component {
                 <Container className="text-center text-md-left">
                   <Row className="my-4">
                     <Col md="4" lg="4">
-                      <h5 className="text-uppercase mb-4 font-weight-bold">Footer Content</h5>
-                      <p>Here you can use rows and columns here to organize your footer content.</p>
-                      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit, error amet numquam iure provident
-                          voluptate esse quasi, veritatis totam voluptas nostrum. </p>
+                      <h5 className="text-uppercase mb-4 font-weight-bold">shifts managment</h5>
+                      <p>This application will help you orginize the shifts for your team.</p>
+                      {/* <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit, error amet numquam iure provident
+                          voluptate esse quasi, veritatis totam voluptas nostrum. </p> */}
                     </Col>
                     <hr className="clearfix w-100 d-md-none"/>
                     <Col md="2" lg="2" className="ml-auto">
@@ -26,10 +26,11 @@ class FooterPage extends React.Component {
                     <hr className="clearfix w-100 d-md-none"/>
                     <Col md="5" lg="3">
                       <h5 className="text-uppercase mb-4 font-weight-bold">Address</h5>
-                      <p><i className="fa fa-home mr-3"></i> New York, NY 10012, US</p>
-                      <p><i className="fa fa-envelope mr-3"></i> info@example.com</p>
-                      <p><i className="fa fa-phone mr-3"></i> + 01 234 567 88</p>
-                      <p><i className="fa fa-print mr-3"></i> + 01 234 567 89</p>
+                      <p><i className="fa fa-home mr-3"></i> iHershko LTD.</p>
+                      <p><i className="fa fa-home mr-3"></i> Rosh Ha'Ain, Israel</p>
+                      <p><i className="fa fa-envelope mr-3"></i> itzik8686@gmail.com</p>
+                      <p><i className="fa fa-phone mr-3"></i> + 972 50 229 0840</p>
+                      {/* <p><i className="fa fa-print mr-3"></i> + 01 234 567 89</p> */}
                     </Col>
                     <hr className="clearfix w-100 d-md-none"/>
                     <Col md="2" lg="2" className="text-center">
@@ -46,7 +47,7 @@ class FooterPage extends React.Component {
                 </Container>
                 <div className="footer-copyright text-center">
                   <Container fluid>
-                      &copy; {(new Date().getFullYear())} Copyright: <a href="https://www.MDBootstrap.com"> MDBootstrap.com </a>
+                      &copy; {(new Date().getFullYear())} Copyright: <a href="https://www.MDBootstrap.com"> iHershko.com </a>
                   </Container>
                 </div>
             </Footer>
